@@ -121,6 +121,42 @@ tr:nth-child(even) {
     color: #4CAF50;
 }
 
+/* Section Téléchargements */
+#telechargements {
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+#telechargements h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#telechargements ul {
+    list-style: none;
+    padding: 0;
+}
+
+#telechargements ul li {
+    margin: 10px 0;
+}
+
+#telechargements ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#telechargements ul li a:hover {
+    color: #4CAF50;
+}
+
 /* Pied de page */
 footer {
     text-align: center;
